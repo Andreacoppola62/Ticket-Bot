@@ -121,6 +121,7 @@ def make_embed(title: str, description: str, color: int) -> discord.Embed:
         color=color,
         timestamp=discord.utils.utcnow(),
     )
+    embed.set_image(url="https://uploadnow.io/f/4tBr9bC")
     embed.set_footer(text=BOT_NAME)
     return embed
 
