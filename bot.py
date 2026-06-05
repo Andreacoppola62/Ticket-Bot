@@ -121,7 +121,7 @@ def make_embed(title: str, description: str, color: int) -> discord.Embed:
         color=color,
         timestamp=discord.utils.utcnow(),
     )
-    embed.set_image(url="<a href="https://ibb.co/gxsSsTm"><img src="https://i.ibb.co/Tsz4z8Y/Logo-Coppola.png" alt="Logo-Coppola" border="0"></a>")
+    embed.set_image(url="[https://ibb.co/gxsSsTm][img]https://i.ibb.co/Tsz4z8Y/Logo-Coppola.png[/img][/url]")
     embed.set_footer(text=BOT_NAME)
     return embed
 
