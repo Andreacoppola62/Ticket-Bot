@@ -310,7 +310,7 @@ def build_panel_embed(guild: discord.Guild) -> discord.Embed:
 def build_select_embed() -> discord.Embed:
     return make_embed(
         "Seleziona una categoria",
-        "Scegli dal menu il tipo di ticket che vuoi aprire. Dopo la scelta comparirà un modulo dedicato.",
+        "Scegli dal menu la categoria che più ti serve.",
         COLOR_NEUTRAL,
     )
 
